@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto Mono', monospace;
+ color: #fff;
+}
+
+section{
+ position: relative;
+ background: url(./image/pexels-photo-275033.jpeg) no-repeat center center/cover;
+ width: 100%;
+ min-height: 100vh;
+}
+
+.navigation{
+ padding:10px 0px;
+ text-decoration: none;
+ display: flex;
+ justify-content: right;
+ flex-wrap: nowrap;
+}
+
+.navigation:not(:last-child){
+ margin-right:30px ;
+}
+
+.navigation a{
+ 
+ text-decoration: none;
+ font-weight: 300;
+ letter-spacing: 1px;
+ border-radius: 20px;
+ padding: 2px 25px;
+ transition: 0.3s;
+ transition-property: rgb(22, 95, 83);
+}
+
+.navigation a:hover{
+background: rgb(22, 95, 83);
+}
+
+.header{
+ position: absolute;
+ text-decoration: none;
+ font-weight: 900;
+ font-size: 20px;
+ top:20%;
+ left:20%;
+}
+.header span{
+ font-weight: 100;
+}
+
+.grid-container{
+ display: grid;
+ position: absolute;
+ top:30%;
+ left: 14%;
+ grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+
+.grid-container h3{
+text-decoration: none;
+font-weight:500;
+padding: 20px 115px;
+}
+
+.contact-me-btn{
+ position: absolute;
+ display: inline-block;
+ text-decoration: none;
+  letter-spacing: 1px;
+ border-radius: 50px;
+ transition: 0.5s;
+ bottom:0;
+ right:0;
+}
+
+.media-icons{
+ display: flex;
+ justify-content:center;
+ align-items:center;
+ margin:auto;
+
+}
+
+.media-icons a{
+ position: relative;
+ font-size: 30px;
+ padding: 30px 0;
+ transition-property:scale(2) ;
+}
+
+.media-icons a:not(:last-child){
+ margin-right: 60px;
+}
+
+.media-icons a:hover{
+ transform: scale(2);
+}
+
+@media(max-width:560px){
+ 
+}
